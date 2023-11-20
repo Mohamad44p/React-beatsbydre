@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@600&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;700&display=swap');
+
+  :root {
+    --main-color: #2A00B7;
+    --secondary-color: #42006C;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand' , 'Roboto';
+}
+body{
+  background: linear-gradient(var(--main-color) , var(--secondary-color));
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 12.5rem ;
+  background-color: #fff;
+  padding-bottom: 2rem;
+  width: 37rem;
+  border-radius: .5rem;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text {
+  color: #3c009d;
+  font-size: 3rem;
+  font-weight: 650;
+}
+.underline {
+  width: 4rem;
+  height: 0.375rem;
+  background-color: #3c009d;
+  border-radius: 9px;
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 55px;
+  gap: 25px;
+}
+.input{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+  height: 80px ;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+.input input{
+ height:3.125rem ;
+  width:  25rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+.input img {
+  width: 20px; 
+  height: 20px; 
+  margin: 30px 30px;
+}
+.forget-password{
+  padding-left: 8rem;
+  margin-top: 1.3rem;
+  color: #797979;
+  font-size: 1.2rem;
+}
+.forget-password span{
+  color: #42006C;
+  cursor: pointer;
+}
+.submit-container{
+  display: flex;
+   gap: 30px;
+   justify-content: center;
+   align-items: center;
+   margin-top: 4rem;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13rem;
+  height: 4rem;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 1.3rem;
+  font-weight: 700;
+  cursor: pointer;
+}  
+.gray{
+  background: #eaeaea;
+  color: #676767;
+}
